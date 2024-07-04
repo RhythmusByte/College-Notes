@@ -1,4 +1,4 @@
-# Computer Organisation and Architecture
+# Computer Organization and Architecture
 
 | Modules | Links |
 |---|---|
