@@ -18,7 +18,7 @@ Logic gates are the basic building blocks of digital circuits. They perform basi
 
 1. **AND Gate**
    - **Symbol**:
-     <img src="https://en.m.wikipedia.org/wiki/File:AND_ANSI.svg" width="50px" alt="Symbol of AND Gate">
+     <img src="../Images/AND.png" width="50px" alt="Symbol of AND Gate">
    - **Operation**: The output is true (1) only if all inputs are true (1).
    - **Truth Table**:
      | A | B | Output |
