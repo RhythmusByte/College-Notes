@@ -20,6 +20,7 @@ Logic gates are the basic building blocks of digital circuits. They perform basi
    - **Symbol**:
      
      <img src="Images/AND.png" alt="Symbol of AND Gate">
+     
    - **Operation**: The output is true (1) only if all inputs are true (1).
    - **Truth Table**:
      | A | B | Output |
@@ -30,7 +31,10 @@ Logic gates are the basic building blocks of digital circuits. They perform basi
      | 1 | 1 |   1    |
 
 2. **OR Gate**
-   - **Symbol**: A curved symbol with two or more inputs and one output.
+   - **Symbol**: 
+     
+     <img src="Images/OR.png" alt="Symbol of OR Gate">
+     
    - **Operation**: The output is true (1) if at least one input is true (1).
    - **Truth Table**:
      | A | B | Output |
@@ -41,7 +45,10 @@ Logic gates are the basic building blocks of digital circuits. They perform basi
      | 1 | 1 |   1    |
 
 3. **NOT Gate (Inverter)**
-   - **Symbol**: A triangle pointing to the right with a small circle (bubble) on the output.
+   - **Symbol**: 
+     
+     <img src="Images/NOT.png" alt="Symbol of NOT Gate">
+     
    - **Operation**: It inverts the input; the output is true (1) if the input is false (0) and vice versa.
    - **Truth Table**:
      | A | Output |
@@ -50,7 +57,10 @@ Logic gates are the basic building blocks of digital circuits. They perform basi
      | 1 |   0    |
 
 4. **NAND Gate**
-   - **Symbol**: Similar to the AND gate but with a small circle (bubble) on the output.
+   - **Symbol**: 
+     
+     <img src="Images/NAND.png" alt="Symbol of NAND Gate">
+     
    - **Operation**: The output is true (1) if at least one input is false (0); it is the inverse of the AND gate.
    - **Truth Table**:
      | A | B | Output |
@@ -61,7 +71,10 @@ Logic gates are the basic building blocks of digital circuits. They perform basi
      | 1 | 1 |   0    |
 
 5. **NOR Gate**
-   - **Symbol**: Similar to the OR gate but with a small circle (bubble) on the output.
+   - **Symbol**: 
+     
+     <img src="Images/NOR.png" alt="Symbol of NOR Gate">
+     
    - **Operation**: The output is true (1) if all inputs are false (0); it is the inverse of the OR gate.
    - **Truth Table**:
      | A | B | Output |
@@ -72,7 +85,10 @@ Logic gates are the basic building blocks of digital circuits. They perform basi
      | 1 | 1 |   0    |
 
 6. **XOR Gate (Exclusive OR)**
-   - **Symbol**: A curved symbol with an additional curved line at the input side.
+   - **Symbol**: 
+     
+     <img src="Images/XOR.png" alt="Symbol of XOR Gate">
+     
    - **Operation**: The output is true (1) if exactly one input is true (1).
    - **Truth Table**:
      | A | B | Output |
@@ -83,7 +99,10 @@ Logic gates are the basic building blocks of digital circuits. They perform basi
      | 1 | 1 |   0    |
 
 7. **XNOR Gate (Exclusive NOR)**
-   - **Symbol**: Similar to the XOR gate but with a small circle (bubble) on the output.
+   - **Symbol**: 
+     
+     <img src="Images/XNOR.png" alt="Symbol of XNOR Gate">
+     
    - **Operation**: The output is true (1) if both inputs are the same (either both true or both false).
    - **Truth Table**:
      | A | B | Output |
