@@ -17,7 +17,8 @@ Digital logic is the foundation of electronic systems, particularly computers an
 Logic gates are the basic building blocks of digital circuits. They perform basic logical functions that are fundamental to digital circuits. Here are the primary types of logic gates:
 
 1. **AND Gate**
-   - **Symbol**: A flat-topped symbol with two or more inputs and one output.
+   - **Symbol**:
+     <img src="https://en.m.wikipedia.org/wiki/File:AND_ANSI.svg" width="50px" alt="Symbol of AND Gate">
    - **Operation**: The output is true (1) only if all inputs are true (1).
    - **Truth Table**:
      | A | B | Output |
