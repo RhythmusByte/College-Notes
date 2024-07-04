@@ -1,4 +1,4 @@
-## Digital Logic in Computer Organization and Architecture
+## Digital Logic
 
 Digital logic is the foundation of electronic systems, particularly computers and other digital systems. It deals with circuits that operate using binary digits (0s and 1s) and is used to implement logical operations and decision-making within these systems.
 
