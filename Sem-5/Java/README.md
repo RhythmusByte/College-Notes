@@ -389,3 +389,74 @@ Value of obj2.num after decrement: 34
 ```
 
 ---
+
+## Command Line Arguments 
+
+📚 In Java, command line arguments are input parameters that are passed to the main method at runtime. 
+> Here's an example:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        if (args.length > 0) {
+            String arg1 = args[0];
+            int arg2 = Integer.parseInt(args[1]);
+            System.out.println("Argument 1: " + arg1);
+            System.out.println("Argument 2: " + arg2);
+        }
+    }
+}
+```
+
+In this example, `args[0]` is a string argument and `args[1]` is an integer argument. You can pass these when running the Java program:
+
+```bash
+java Main "Hello" 123
+```
+
+This will output:
+
+```
+Argument 1: Hello
+Argument 2: 123
+```
+
+---
+
+- **Example**
+
+```java
+class Main {
+    public static void main(String[] args) {
+        String i = args[0];
+        String j = args[1];
+        String k = args[2];
+        int x = Integer.parseInt(i);
+        int y = Integer.parseInt(j);
+        int z = Integer.parseInt(k);
+        int l = x + y;
+        int m = l - x;
+        System.out.println("The l is " + l);
+        System.out.println("The m is " + m);
+    }
+}
+```
+
+📚 The `main` method accepts command line arguments stored in the `args` array. The program expects three arguments, `args[0]`, `args[1]`, and `args[2]`, to be strings. It then converts them into integers `x`, `y`, and `z`. The program calculates `l` as their sum and `m` as the difference between `l` and `x`.
+
+To run this program with command line arguments, use the following command:
+
+```bash
+java Main 5 10 3
+```
+
+This will output:
+
+```
+The l is 18
+The m is 13
+```
+
+Here, `5`, `10`, and `3` are the command line arguments provided to the Java program.
+
+---
