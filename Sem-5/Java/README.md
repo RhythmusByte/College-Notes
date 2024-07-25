@@ -1,7 +1,7 @@
 ## Java Classes
 The fundamental idea behind **OOP** languages is combining both data and functions that operate on that data into a single unit called a class. An object, which is an instance of a class, provides methods that allow interaction with its data.
 
-> Get program files that are shown in this note from [here](Sem-5/Java/Programs).
+> Get program files that are shown in this note from [here](Programs).
 
 ### Key Elements of a Class
 - **Class Name:** The name of the class.
