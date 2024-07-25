@@ -47,3 +47,5 @@ The quotient of 2 and 5 is 0
 The remainder of 2 and 5 is -3
 The difference of 2 and 5 is 2
 ```
+
+> Image of the output [click here](Sem-5/Java/Lab_Programs/Outputs/Program1.png)
