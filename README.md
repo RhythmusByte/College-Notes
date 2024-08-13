@@ -1,3 +1,2 @@
-## Don't be a ~CUNT~ make your own notes, don't take it from others!!!
-
-Whoever other than me open this repository is a **GAY**!!!
+#### Don't be a **cunt** make your own notes, don't take it from others!!!<br>
+> Whoever other than me open this repository is a **GAY**!!!
