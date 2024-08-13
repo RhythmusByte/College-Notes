@@ -1,5 +1,5 @@
 function checkNumberType() {
-    var number = parseInt(prompt("Enter a number:"));
+    let number = parseInt(window.prompt("Enter a number:"));
     
     function sumOfDivisors(num) {
         let sum = 0;
@@ -11,7 +11,7 @@ function checkNumberType() {
         return sum;
     }
 
-    var sum = sumOfDivisors(number);
+    let sum = sumOfDivisors(number);
 
     let result;
     if (sum === number) {
@@ -21,8 +21,7 @@ function checkNumberType() {
     } else {
         result = number + " is a deficient number.";
     }
-
-    alert(result);
+    window.alert(result);
 }
 
 checkNumberType();
