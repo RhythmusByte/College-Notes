@@ -1,3 +1,9 @@
+/* 
+Write a program to find the sum, difference, 
+product, quotient and remainder of two 
+numbers passed as command line argument.
+*/
+
 class Program1 {
 	public static void main(String[] args) {
 		if(args.length != 2) {
