@@ -1,3 +1,11 @@
+/*
+Read an array of 10 or more numbers and 
+write a program to find the
+  a) Smallest element in the array
+  b) Largest element in the array
+  c) Second largest element in the array
+*/
+
 import java.util.*;
 
 public class Program3 {
