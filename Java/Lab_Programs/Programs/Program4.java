@@ -1,3 +1,11 @@
+/*
+Create an interface volume with member variable 
+pi and methods readdata () and dispvolume (). 
+Create two classes sphere and cylinder to 
+implement this interface. 
+Write a Java program to find the volume.
+*/
+
 import java.util.*;
 
 interface Volume {
