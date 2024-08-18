@@ -73,7 +73,6 @@ public class Program4 {
                     System.out.println("Invalid choice. Please try again.");
             }
         } while (choice != 3);
-        scan.close();
     }
 
     private static void displayMenu() {
