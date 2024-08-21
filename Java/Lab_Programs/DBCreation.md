@@ -50,3 +50,9 @@ insert into tableName values(1, 'name', 1000), (2, 'name', 1000);
 ```yaml
 select * from tableName;
 ```
+
+---
+
+```yaml
+export CLASSPATH=/home/rhythmusbyte/Desktop/JAVA/postgresql-42.7.3.jar
+```
