@@ -1,3 +1,10 @@
+/*
+Write a program to perform base conversion
+    a) Integer to binary
+    b) Integer to Octal
+    c) Integer to Hexadecimal
+*/
+
 import java.util.*;
 
 public class BaseConverter {
