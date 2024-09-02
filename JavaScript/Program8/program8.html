@@ -1,0 +1,28 @@
+<!-- 
+ Write a JavaScript Program to create an Array and read values using Prompt popup
+box and display the sum of elements in an Alert Box 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum</title>
+</head>
+<body>
+    <script>
+        let values = prompt('Enter values for an array\n\nExample: 789654123');
+        let arr = Array.from(values);
+        let len = arr.length;
+
+        let sum = 0;
+
+       for(let i = 0; i < len; i++) {
+            sum += parseInt(arr[i], 10);
+       }
+
+       alert('The sum of the elements is: ' + sum);
+    </script>
+</body>
+</html>
