@@ -1,0 +1,3 @@
+<?
+echo "PHP Notes";
+?>
