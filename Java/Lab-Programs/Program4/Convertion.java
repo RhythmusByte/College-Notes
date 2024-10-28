@@ -35,22 +35,26 @@ public class Convertion {
      System.out.print("\nBase Convertor\n\t1. Binary\n\t2. Octal\n\t3. Hexadecimal\n\t4. Exit\n\nEnter the number of your choice: ");
      int choice = scan.nextInt();
      
+      if(choice == 4) {
+       run = false;
+       break;
+     }
+     
      System.out.print("Enter a number to convert: ");
      int num = scan.nextInt();
      
      Conversion baseConverter = new Conversion(num); 
      
      if(choice == 1) {
-       System.out.println("Binary = " + baseConverter.toBinary());
+       System.out.println("\nBinary = " + baseConverter.toBinary());
      } else if(choice == 2) {
-       System.out.println("Octal = " + baseConverter.toOctal());
+       System.out.println("\nOctal = " + baseConverter.toOctal());
      } else if(choice == 3) {
-       System.out.println("Hexadecimal = " + baseConverter.toHex());
-     } else if(choice == 4) {
-       run = false;
+       System.out.println("\nHexadecimal = " + baseConverter.toHex());
      } else {
        throw new IllegalArgumentException("Invalid Input!!");
      }
    }
+   scan.close();
  }
 }
