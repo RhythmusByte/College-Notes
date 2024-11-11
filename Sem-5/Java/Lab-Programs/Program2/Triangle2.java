@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Triangle2 {
   double sideOne;
