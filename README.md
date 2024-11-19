@@ -1,3 +1,2 @@
 # College Notes
-
-> Lab programs and some other random files
+College related notes and programs 
