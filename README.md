@@ -1,2 +1,2 @@
 # College Notes
-College related notes and programs 
+College related notes and some programs 
