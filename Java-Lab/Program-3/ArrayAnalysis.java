@@ -23,7 +23,7 @@ public class ArrayAnalysis {
   }
 
   private void smallestElement() {
-    System.out.println("Smallest Element: " + array[0]);
+    System.out.println("\nSmallest Element: " + array[0]);
   }
 
   private void secondLargest() {
@@ -35,6 +35,6 @@ public class ArrayAnalysis {
   }
   
   public static void main(String[] args) {
-    var array = new ArrayAnalysis();
+    new ArrayAnalysis();
   }
 }
