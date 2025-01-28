@@ -1,8 +1,8 @@
 import java.util.Arrays;
 
 public class MergeArrays {
-    private int[] array1 = {19, 32, 45, 27};
-    private int[] array2 = {23, 14, 60, 81};
+    private int[] array1 = {1, 4, 7, 8};
+    private int[] array2 = {6, 5, 2, 3};
     private int[] mergedArray = new int[array1.length + array2.length];
 
     public MergeArrays() {
@@ -13,21 +13,15 @@ public class MergeArrays {
     private void mergeArrays() {
         int i = 0, j = 0, k = 0;
 
-        // Merge the arrays while keeping the order
         while (i < array1.length && j < array2.length) {
-            if (array1[i] < array2[j]) {
-                mergedArray[k++] = array1[i++];
-            } else {
-                mergedArray[k++] = array2[j++];
-            }
+            mergedArray[k++] = array1[i++];
+            mergedArray[k++] = array2[j++];
         }
 
-        // If there are any elements left in array1
         while (i < array1.length) {
             mergedArray[k++] = array1[i++];
         }
 
-        // If there are any elements left in array2
         while (j < array2.length) {
             mergedArray[k++] = array2[j++];
         }
