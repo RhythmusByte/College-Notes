@@ -4,6 +4,7 @@ class Triangle {
     private final double a, b, c;
 
     Triangle(Scanner sc) {
+        System.out.print("Enter three sides: ");
         a = sc.nextDouble();
         b = sc.nextDouble();
         c = sc.nextDouble();
