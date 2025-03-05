@@ -34,7 +34,7 @@ class EvenNumbers implements Runnable {
 
 public class OddEvenThreads {
     public static void main(String[] args) {
-        int limit = 20;
+        int limit = 5;
         Thread oddThread = new Thread(new OddNumbers(limit));
         Thread evenThread = new Thread(new EvenNumbers(limit));
 
