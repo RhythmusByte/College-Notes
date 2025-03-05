@@ -21,15 +21,11 @@ public class MergeArrays {
     }
   }
 
-  private void printResult() {
-    System.out.println("Array 1: " + Arrays.toString(array1));
-    System.out.println("Array 2: " + Arrays.toString(array2));
-    System.out.println("Merged Array: " + Arrays.toString(mergedArray));
-  }
-
   public static void main(String[] args) {
     MergeArrays arr = new MergeArrays();
     arr.mergeArrays();
-    arr.printResult();
+    System.out.println("Array 1: " + Arrays.toString(arr.array1));
+    System.out.println("Array 2: " + Arrays.toString(arr.array2));
+    System.out.println("Merged Array: " + Arrays.toString(arr.mergedArray));
   }
 }

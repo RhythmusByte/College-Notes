@@ -35,5 +35,6 @@ public class HCFAndLCM {
 
     System.out.println("HCF: " + calc.findHCF());
     System.out.println("LCM: " + calc.findLCM());
+    SCANNER.close();
   }
 }
