@@ -1,12 +1,10 @@
 ## Question
 Write a program to perform base conversion
-    a) Integer to Binary
-    b) Integer to Octal
-    c) Integer to Hexadecimal
+    1. Integer to Binary
+    2. Integer to Octal
+    3. Integer to Hexadecimal
 
 ## Output
-
-
 ```
 Enter a number: 24
 Binary: 11000

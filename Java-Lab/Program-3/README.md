@@ -1,8 +1,8 @@
 ## Question
 Read an array of 10 or more numbers and write a program to find the
-  a) Smallest element in the array
-  b) Largest element in the array
-  c) Second largest element in the array
+  1. Smallest element in the array
+  2. Largest element in the array
+  3. Second largest element in the array
 
 ## Output
 
