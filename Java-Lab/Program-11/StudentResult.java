@@ -1,17 +1,17 @@
 import java.util.Scanner;
 
 class Student {
-  protected String name, rollNo;
+  public String name, rollNo;
 
-  public void readStudentDetails(Scanner scanner) {
+  public void readStudentDetails(Scanner sc) {
     System.out.print("Enter student name: ");
-    name = scanner.nextLine();
+    name = sc.nextLine();
     System.out.print("Enter roll number: ");
-    rollNo = scanner.nextLine();
+    rollNo = sc.nextLine();
   }
 
   public void displayStudentDetails() {
-    System.out.println("Name: " + name);
+    System.out.println("\nName: " + name);
     System.out.println("Roll No: " + rollNo);
   }
 }
@@ -21,11 +21,11 @@ class Mark extends Student {
   private int total;
   private double average;
 
-  public void readMarks(Scanner scanner) {
+  public void readMarks(Scanner sc) {
     total = 0;
-    System.out.println("Enter marks for 5 subjects:");
+    System.out.print("\nEnter marks for 5 subjects:");
     for (int i = 0; i < 5; i++) {
-      marks[i] = scanner.nextInt();
+      marks[i] = sc.nextInt();
       total += marks[i];
     }
     average = total / 5.0;
@@ -40,10 +40,10 @@ class Mark extends Student {
 
 public class StudentResult {
   public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
     Mark student = new Mark();
-    student.readStudentDetails(scanner);
-    student.readMarks(scanner);
+    student.readStudentDetails(sc);
+    student.readMarks(sc);
     student.displayResult();
   }
 }
