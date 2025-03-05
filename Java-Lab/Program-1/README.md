@@ -3,7 +3,7 @@
 ---
 
 ## Command Line Arguments
-java ArithmeticCalculator 12 24                                                                    ─
+java ArithmeticCalculator 12 24
 
 ## Output: 
 
